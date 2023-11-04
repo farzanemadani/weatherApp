@@ -15,8 +15,8 @@
         </p>
         <template v-else>
           <li
-          v-for="(searchResult ,index) in mapBoxResults"
-          :key="index"
+          v-for="searchResult in mapBoxResults"
+          :key="searchResult.id"
           class="py-2 cursor-pointer">
             {{ searchResult.place_name }}
           </li>
