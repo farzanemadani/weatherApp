@@ -21,6 +21,32 @@
                 )
                 }}
             </p>
+            <p class="text-8xl mb-0">
+                {{ Math.round(weatherData.data.current.temp) }} &deg
+            </p>
+           
+            <p>
+                Feels like 
+                {{ Math.round(weatherData.data.current.feels_like) }} &deg
+            </p>
+            <p class="capitalize">
+                {{ weatherData.data.current.weather[0].description }}
+            </p>
+            <img
+            class="w-[150px] h-auto"
+            :src="
+            `http://openweathermap.org/img/wn/${weatherData.data.current.weather[0].icon}@2x.png`
+            "
+            alt="Current weather icon"/>
+
+            <hr class="border-white border-opacity-10 border w-full"/>
+           <!-- Hourly Weather -->
+           <div class="max-w-screen-md w-full py-12">
+            <div class="mx-8 tex-white">
+                <h2 class="mb-4">Hourly Weather</h2>
+            </div>
+
+           </div>
         </div>
     </div>
 </template>
