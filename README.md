@@ -12,6 +12,7 @@ I would like to thank [Net Ninja] for creating an amazing course on how to creat
 
 - [ Weather App Build| Net Ninja ](https://www.youtube.com/watch?v=gUsBaB5ViAo&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ)
 - [GitHub - johnkomarnicki/net_ninja_vue_3_weather_app: net_ninja_vue_3_weather_app](https://github.com/johnkomarnicki/net_ninja_vue_3_weather_app)
+
 This section is optional, but it is a good practice to acknowledge the sources that helped you with your project and show your appreciation. It also helps other developers to find more resources and learn from them.
 ## Customize configuration
 
