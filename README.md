@@ -10,8 +10,8 @@ A simple web app that shows the current weather and forecast for any city in the
 ## Acknowledgements
 I would like to thank [Net Ninja] for creating an amazing course on how to create a weather app with Vue 3, TailwindCSS, and OpenWeather API. The course taught me the basics of Vue 3, such as components, props, slots, directives, and reactive data. It also showed me how to use TailwindCSS to style the app and how to fetch data from the OpenWeather API using axios. I learned a lot from this course and I enjoyed making the weather app. You can find the course and the source code in the links below:
 
-- [Modern JavaScript - From Novice to Ninja Course | Net Ninja]
-- [GitHub - johnkomarnicki/net_ninja_vue_3_weather_app: net_ninja_vue_3_weather_app]
+- [ Weather App Build| Net Ninja ](https://www.youtube.com/watch?v=gUsBaB5ViAo&list=PL4cUxeGkcC9hfoy8vFQ5tbXO3vY0xhhUZ)
+- [GitHub - johnkomarnicki/net_ninja_vue_3_weather_app: net_ninja_vue_3_weather_app](https://github.com/johnkomarnicki/net_ninja_vue_3_weather_app)
 This section is optional, but it is a good practice to acknowledge the sources that helped you with your project and show your appreciation. It also helps other developers to find more resources and learn from them.
 ## Customize configuration
 
