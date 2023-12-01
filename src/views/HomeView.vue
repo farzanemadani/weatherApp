@@ -22,15 +22,17 @@
     <div class="flex flex-col gap-4">
       <Suspense>
         <CityList/>
-          <template #fallback>
-            <p></p>
-          </template>
+        <template #fallback>
+            <CityCardSkeleton />
+        </template>
       </Suspense>
     </div>
   </main>
 </template>
 <script setup>
 import { ref, unref } from 'vue'; 
+import CityList from "../components/CityList.vue";
+import CityCardSkeleton from "../components/CityCardSkeleton.vue";
 import axios from 'axios';
 import { useRouter } from 'vue-router';
 
